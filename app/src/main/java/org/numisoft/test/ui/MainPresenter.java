@@ -28,7 +28,6 @@ public class MainPresenter extends MvpPresenter<MainView> {
         getViewState().changeToTabThree();
         getViewState().changeText(dataSource.getFirstName());
         System.out.println(dataSource.getLastName());
-        System.out.println(dataSource.getLastName());
 
     }
 }
