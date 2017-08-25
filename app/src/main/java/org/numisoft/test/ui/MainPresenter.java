@@ -26,7 +26,7 @@ public class MainPresenter extends MvpPresenter<MainView> {
     protected void onFirstViewAttach() {
         super.onFirstViewAttach();
         getViewState().changeToTabThree();
-        getViewState().changeText(dataSource.getLastName());
+        getViewState().changeText(dataSource.getFirstName());
         System.out.println(dataSource.getFirstName());
 
     }
